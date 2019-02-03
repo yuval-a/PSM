@@ -2,7 +2,6 @@
 
 use App\Sale;
 use App\Http\Resources\Sale as SaleResource;
-use Log\Log;
 
 /*
 |--------------------------------------------------------------------------
