@@ -1,0 +1,144 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+.full-height {
+    height: 100vh;
+}
+
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+a {
+    color :#363636 !important;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/* New Sale */
+
+.form-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 390px;
+    height: 396px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+
+.form-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: calc(50% - 1rem);
+    background-color: rgba(255,255,255,0.74);
+    display: none;
+}
+.form-error {
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+}
+.back-link {
+    font-size:30px;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+
+#pay-frame {
+    height: 424px;
+    position: absolute;
+    width: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#pay-iframe {
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+}
+
+/* Sale history */
+.container {
+    height: 100%;
+}
+#sales-table {
+    transform: translateY(50%);
+}
+
+.payment-link {
+    color: skyblue;
+    text-decoration: underline;
+}
